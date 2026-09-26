@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5F5F5;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+    width: 90%;
+    min-width: 960px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+}
+
+header {
+    background-color: #F5DADF;
+    height: 150px;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+    float: left;
+    margin: 20px;
+}
+
+header h1 {
+    color: #663333;
+    text-align: center;
+    padding-top: 35px;
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    text-align: center;
+}
+
+nav {
+    float: left;
+    width: 190px;
+    padding: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    padding-bottom: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#inquiry {
+    float: left;
+    clear: left;
+    width: 160px;
+    margin-left: 15px;
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #CCCCCC;
+}
+
+#inquiry h3 {
+    font-size: 1em;
+}
+
+main {
+    margin-left: 190px;
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+#homehero {
+    height: 300px;
+    border: 1px solid #CCCCCC;
+    text-align: center;
+    padding-top: 140px;
+}
+
+h2 {
+    color: #993366;
+    text-align: center;
+}
+
+.favorite {
+    float: left;
+    width: 30%;
+    margin: 1.5%;
+    padding: 15px;
+    border: 1px solid #CCCCCC;
+    text-align: center;
+    min-height: 180px;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    background-color: #F5DADF;
+}
