@@ -107,6 +107,48 @@ main > p {
     font-size: 1.5em;
 }
 
+#about p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+#contact form {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+#contact label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 8px;
+}
+
+#contact input[type="submit"] {
+    width: auto;
+    margin-top: 15px;
+}
+
+#contact > p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
 h2 {
     color: #993366;
     text-align: center;
@@ -150,6 +192,30 @@ h2 {
     margin-top: 0;
 }
 
+#flavorguide {
+    clear: both;
+}
+
+table {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #CCCCCC;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #F5DADF;
+    color: #663333;
+}
+
 #gallery {
     overflow: auto;
     margin-top: 15px;
@@ -173,6 +239,22 @@ h2 {
 }
 
 .galleryitem p {
+    font-weight: bold;
+    color: #663333;
+}
+
+#galleryvideo {
+    clear: both;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#galleryvideo video {
+    width: 80%;
+    height: auto;
+}
+
+#galleryvideo p {
     font-weight: bold;
     color: #663333;
 }
